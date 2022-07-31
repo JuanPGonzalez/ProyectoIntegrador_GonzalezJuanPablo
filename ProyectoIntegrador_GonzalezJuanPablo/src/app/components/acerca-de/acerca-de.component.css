@@ -10,7 +10,7 @@ div{
 #nombre{
     font-size: x-large;
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 
 @media (min-width: 576px){
