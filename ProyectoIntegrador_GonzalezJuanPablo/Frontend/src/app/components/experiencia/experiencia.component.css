@@ -3,9 +3,14 @@
 }
 
 div{
-    background-color:cadetblue;
+    background-color: #165165;
+    color: white;
 }
 
 h1, h3{
     display: inline;
+}
+
+#titulo{
+    text-decoration: underline;
 }

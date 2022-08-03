@@ -1,7 +1,3 @@
-img{
-    width: 100%;
-    height:600px;   
-}
-div{
-    background-color: cadetblue;
+.row{
+    width: auto; 
 }

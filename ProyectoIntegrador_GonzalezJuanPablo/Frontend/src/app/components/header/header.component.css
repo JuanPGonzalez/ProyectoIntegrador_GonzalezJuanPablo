@@ -1,13 +1,3 @@
-#header{
-    background-color: darkcyan ;
-}
-
-app-social{
-    float: right;
-    margin-top: 25px;
-    margin-right: 25px;
-}
-
-app-banner{
-    text-align: center;
+.row{
+    background-color: #0E2C40 ;
 }

@@ -3,14 +3,16 @@
 }
 
 div{
-    background-color: darkcyan;
+    background-color: #0E2C40;
     text-align: center;
+    color: white;
+    font-family: Georgia;
 }
 
 #nombre{
     font-size: x-large;
     font-weight: bold;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 @media (min-width: 576px){
@@ -18,9 +20,11 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 3%;
+        left: 1%;
         top: 600px;
+        border-color: #254659;
+        border-width: 5px;
+        border-style: solid;
 }
 }
 
@@ -29,8 +33,10 @@ div{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
         left: 33%;
-        top: 630px;
+        top: 175px;
+        border-color: #254659;
+        border-width: 5px;
+        border-style: solid;
 }
 }

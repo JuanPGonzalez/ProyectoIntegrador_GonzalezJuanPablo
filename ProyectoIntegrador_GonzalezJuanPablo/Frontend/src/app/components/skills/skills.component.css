@@ -1,5 +1,10 @@
 .row{
-    background-color: cadetblue;
+    background-color: #165165;
     padding:  20px;
-    
+    width: auto;
+    color: white;
+}
+
+#titulo{
+    text-decoration: underline;
 }
