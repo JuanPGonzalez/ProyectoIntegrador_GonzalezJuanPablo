@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Juan Pablo Gonzalez
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
@@ -63,8 +63,4 @@ public class PersonaController {
         return persona;
     }
     
-    @GetMapping("/personas/traer/perfil")
-    public Persona findPersona(){
-        return ipersonaService.findPersona((long)1);
-    }
 }

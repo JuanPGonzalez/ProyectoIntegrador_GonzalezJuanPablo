@@ -72,8 +72,7 @@ public class AuthController {
 
         Usuario usuario = new Usuario(nuevoUsuario.getNombre(), nuevoUsuario.getNombreUsuario(), nuevoUsuario.getEmail(), passwordEncoder.encode(nuevoUsuario.getPassword()));
 
-        Set<Rol> roles;
-        roles = new HashSet<>();
+        Set<Rol> roles = new HashSet<>();
         roles.add(rolService.getByRolNombre(RolNombre.ROLE_USER).get());
 
         if (nuevoUsuario.getRoles().contains("admin")) {

@@ -9,5 +9,5 @@ package com.jpgportfolio.jpg.Security.Enums;
  * @author Juan Pablo Gonzalez
  */
 public enum RolNombre {
-    ROLE_ADMIN, ROLE_USER
+    ROLE_ADMIN, ROLE_USER;
 }
