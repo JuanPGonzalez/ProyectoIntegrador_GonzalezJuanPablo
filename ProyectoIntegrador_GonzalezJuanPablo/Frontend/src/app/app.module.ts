@@ -19,6 +19,8 @@ import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { interceptorProvider } from './service/interceptor-service';
     FooterComponent,
     HomeComponent,
     LoginComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
     
   ],
   imports: [
@@ -42,7 +46,7 @@ import { interceptorProvider } from './service/interceptor-service';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     RouterModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [
     interceptorProvider
