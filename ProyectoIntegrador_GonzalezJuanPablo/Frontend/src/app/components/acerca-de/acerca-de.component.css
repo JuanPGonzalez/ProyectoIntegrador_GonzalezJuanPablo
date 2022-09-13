@@ -9,10 +9,11 @@ div{
     font-family: Georgia;
 }
 
-#nombre{
+#titulo{
     font-size: x-large;
     font-weight: bold;
     margin-top: 10%;
+    color: white;
 }
 
 @media (min-width: 576px){
