@@ -8,3 +8,9 @@
 #titulo{
     text-decoration: underline;
 }
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
