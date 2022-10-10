@@ -18,24 +18,21 @@ div{
 
 @media (min-width: 576px){
     #fotoPerfil{
-        position: absolute;
-        width: 15%;
         border-radius: 100%;
-        left: 1%;
-        top: 600px;
         border-color: #254659;
         border-width: 5px;
         border-style: solid;
 }
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 575px){
     #fotoPerfil{
-        position: absolute;
-        width: 30%;
         border-radius: 100%;
-        left: 33%;
-        top: 175px;
         border-color: #254659;
         border-width: 5px;
         border-style: solid;

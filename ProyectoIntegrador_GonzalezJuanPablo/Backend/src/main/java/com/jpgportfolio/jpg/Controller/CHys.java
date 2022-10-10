@@ -10,7 +10,7 @@ package com.jpgportfolio.jpg.Controller;
  */
 import com.jpgportfolio.jpg.Entity.hys;
 import com.jpgportfolio.jpg.Security.Controller.Mensaje;
-import com.jpgportfolio.jpg.Security.Dto.dtoHys;
+import com.jpgportfolio.jpg.Dto.dtoHys;
 import com.jpgportfolio.jpg.Service.Shys;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
