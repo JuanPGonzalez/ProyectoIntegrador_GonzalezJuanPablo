@@ -1,5 +1,6 @@
 .row{
     padding: 20px;
+    height: 175px;
 }
 
 div{
@@ -16,23 +17,31 @@ div{
     color: white;
 }
 
+
 @media (min-width: 576px){
     #fotoPerfil{
+        position: relative;
         border-radius: 100%;
         border-color: #254659;
         border-width: 5px;
         border-style: solid;
+        bottom: 150px;
+        height: 265px;
 }
     .descripcion{
-        display: flex;
         justify-content: center;
         align-items: center;
+
     }
 }
 
 @media (max-width: 575px){
     #fotoPerfil{
+        position: absolute;
+        width: 30%;
         border-radius: 100%;
+        left: 33%;
+        top: 175px;
         border-color: #254659;
         border-width: 5px;
         border-style: solid;
