@@ -1,10 +1,13 @@
 <div class="row">
 
-    <h1 id="titulo">Hard & Soft skills</h1>
+    
+    <h1 id="titulo">Hard & Soft skills</h1> 
+    
     <div class="col-lg-2">
-        <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva Skill</button>
+        <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged" id="boton">Nueva Skill</button>
     </div>
 
+    <div class="col-sm-4 col-md-4 col-lg-4"></div>
 
     <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
         <circle-progress 
@@ -21,8 +24,8 @@
         [showSubtitle]="false" 
         [outerStrokeWidth]="16" 
         [innerStrokeWidth]="2" 
-        [outerStrokeColor]="'#78C000'"
-        [innerStrokeColor]="'#C7E596'" 
+        [outerStrokeColor]="'#165165'"
+        [innerStrokeColor]="'#165165'" 
         [animation]="true" 
         [animationDuration]="600"
         ></circle-progress>
